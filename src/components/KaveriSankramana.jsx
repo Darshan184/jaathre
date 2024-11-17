@@ -13,7 +13,7 @@ import Kaveri1 from "../assets/kaveri1.jpg";
 import Kaveri2 from "../assets/kaveri2.jpg";
 import Kaveri3 from "../assets/kaveri3.jpg";
 import Talacauvery from "../assets/talakaveri.jpg";
-import Coorg from "../assets/coorg.jpg";
+import Coorg from "../assets/Coorg.jpg"; //import fix
 
 export default function KaveriSankramana() {
   const [activeImage, setActiveImage] = useState(0);
