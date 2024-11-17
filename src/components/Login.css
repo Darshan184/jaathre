@@ -1,0 +1,62 @@
+/* src/components/Login.css */
+
+.login-background {
+  background-image: url("../assets/loginbg.jpg"); /* Replace with the path to your image */
+  background-size: cover; /* Cover the entire page */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent repeating of the image */
+  height: 90vh; /* Full height of the viewport */
+  display: flex; /* Flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: flex-start; /* Align to the start vertically */
+  padding-top: 50px; /* Add space from the top */
+}
+
+.login-container {
+  max-width: 400px; /* Set a max width for the form */
+  margin: 20px; /* Add some margin around the container */
+  padding: 20px;
+  border: 1px solid #ccc; /* Add a border */
+  border-radius: 10px; /* Round the corners */
+  background-color: #fff; /* White background */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Add some shadow */
+}
+
+h2 {
+  text-align: center; /* Center the heading */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Space between fields */
+}
+
+label {
+  display: block; /* Make label block */
+  margin-bottom: 5px; /* Space below label */
+}
+
+input {
+  width: 100%; /* Full width for inputs */
+  padding: 10px; /* Padding inside inputs */
+  border: 1px solid #ccc; /* Border for inputs */
+  border-radius: 5px; /* Rounded corners */
+}
+
+button {
+  width: 100%; /* Full width button */
+  padding: 10px; /* Padding for button */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Round corners */
+  background-color: #061080; /* Button background color */
+  color: white; /* White text */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+  background-color: #e6c86a; /* Darker shade on hover */
+}
+
+p {
+  text-align: center; /* Center the paragraph */
+}

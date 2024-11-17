@@ -1,0 +1,48 @@
+.carousel-container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px; /* Container width */
+  margin: 0 auto;
+  overflow: hidden; /* Hide overflow */
+}
+
+.carousel-slide {
+  height: 500px; /* Adjust height as desired */
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background for caption */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.carousel-button {
+  position: absolute; /* Position absolutely within the container */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%); /* Adjust for centering */
+  font-size: 2rem; /* Button font size */
+  color: white; /* Button text color */
+  background: none; /* No background */
+  border: none; /* No border */
+  cursor: pointer; /* Pointer cursor on hover */
+  z-index: 1; /* Ensure buttons are on top of other elements */
+}
+
+.carousel-button.prev {
+  left: 10px; /* Position left */
+}
+
+.carousel-button.next {
+  right: 10px; /* Position right */
+}
+
+.carousel-button:hover {
+  color: #ffffff; /* Mustard yellow on hover */
+}

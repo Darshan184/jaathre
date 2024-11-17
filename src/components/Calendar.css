@@ -1,0 +1,157 @@
+/* src/components/Calendar.css */
+
+.calendar-container {
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.calendar-wrapper {
+  flex: 1;
+  max-width: 400px;
+  margin-right: 20px;
+  background-color: #f9f9f9; /* Soft off-white for a clean look */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.event-list {
+  flex: 1;
+  background-color: #d3d3d3; /* Light gray for event list background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.event-list h3 {
+  margin-top: 0;
+  color: #333; /* Dark gray for better readability */
+}
+
+.event-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.event-list li {
+  padding: 10px 0; /* More padding for a spacious feel */
+  border-bottom: 1px solid #bbb; /* Softer border for separation */
+  background-color: #f0f0f0; /* Lighter gray for individual event items */
+  border-radius: 4px; /* Rounded corners for event items */
+}
+
+.fc {
+  background-color: #f3f4f6; /* Light gray for calendar grid */
+}
+
+.fc-daygrid-day {
+  cursor: pointer;
+  border: 1px solid #e0e0e0; /* Light border for grid cells */
+}
+
+.fc-event {
+  background-color: #3b82f6; /* Bright blue for event background */
+  color: white;
+  border-radius: 4px; /* Rounded corners for events */
+  padding: 5px; /* Padding for event items */
+}
+
+.fc-button {
+  background-color: #4a5568; /* Dark gray button */
+  color: #fff;
+  border: none;
+  padding: 10px; /* Added padding for buttons */
+  border-radius: 4px; /* Rounded corners for buttons */
+}
+
+.fc-button:hover {
+  background-color: #2d3748; /* Darker gray on hover */
+}
+.selected-events-card {
+  background-color: #e6f7ff; /* Light blue background for selected events */
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.selected-events-card h3 {
+  margin-top: 0;
+  color: #333; /* Dark gray for better readability */
+}
+
+.selected-events-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.selected-events-card li {
+  padding: 5px 0;
+  border-bottom: 1px solid #bbb; /* Softer border for separation */
+}
+.event-list {
+  flex: 1;
+  background-color: #d3d3d3; /* Light gray for event list background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin-bottom: 20px; /* Add margin at the bottom to separate from the next card */
+}
+
+.selected-events-card {
+  background-color: #e6f7ff; /* Light blue background for selected events */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+.calendar-container {
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.calendar-wrapper {
+  flex: 1;
+  max-width: 400px;
+  margin-right: 20px;
+}
+
+.event-container {
+  display: flex; /* Use flexbox for the event cards */
+  flex-direction: column; /* Stack the event cards vertically */
+  flex: 1; /* Allow this section to grow */
+}
+
+.event-list {
+  background-color: #d3d3d3; /* Light gray for event list background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin-bottom: 20px; /* Space below the All Events card */
+}
+
+.selected-events-card {
+  background-color: #e6f7ff; /* Light blue background for selected events */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Additional styles */
+.selected-events-card h3 {
+  margin-top: 0;
+  color: #333; /* Dark gray for better readability */
+}
+
+.selected-events-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.selected-events-card li {
+  padding: 5px 0;
+  border-bottom: 1px solid #bbb; /* Softer border for separation */
+}
+
+

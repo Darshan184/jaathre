@@ -1,0 +1,111 @@
+/* For event cards layout: 3 on top, 3 below */
+.event-cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+  gap: 20px;
+  padding: 20px;
+  z-index: 2;
+}
+
+/* Mustard yellow cards */
+.event-card {
+  background-color: #ffffff; /* Mustard yellow color */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  padding: 15px;
+}
+
+.event-card:hover {
+  transform: translateY(-10px); /* Lift the card slightly on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.event-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.event-card h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.event-card p {
+  font-size: 0.9em;
+  color: #555;
+}
+
+/* Existing styles */
+.home-background {
+  position: relative;
+  background-image: url("../assets/IMG-20241104-WA0021.jpg"); /* Path to your image */
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0)
+  ); /* Transparent gradient overlay */
+  z-index: 1;
+}
+
+.carousel-container {
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.info-card {
+  position: relative;
+  z-index: 2;
+  background-color: rgba(50, 50, 50, 0.9); /* Darker background */
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info-card h2 {
+  text-align: center;
+  color: #fff;
+}
+
+.info-card p {
+  text-align: center;
+  color: #ccc; /* Slightly lighter gray */
+}
+
+.cta-button {
+  display: block;
+  margin: 20px auto; /* Center the button */
+  padding: 10px 20px;
+  background-color: #3b82f6; /* Button color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s; /* Transition for hover effect */
+}
+
+.cta-button:hover {
+  background-color: #2563eb; /* Darker shade on hover */
+}

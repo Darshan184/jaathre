@@ -1,0 +1,10 @@
+/* src/App.css */
+
+body,
+.app-container {
+  background-color: #ffffff; /* Mustard yellow */
+  color: #333; /* Optional: dark text color to ensure readability */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}

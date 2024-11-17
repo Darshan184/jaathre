@@ -1,0 +1,79 @@
+/* src/components/Footer.css */
+
+.footer {
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-container {
+  width: 90%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-section {
+  margin: 10px 0;
+}
+
+.footer-links,
+.footer-contact,
+.footer-social {
+  flex: 1;
+  margin: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li,
+.footer-social .social-icons a {
+  margin: 5px 0;
+}
+
+.footer-links a,
+.footer-social .social-icons a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-links a:hover,
+.footer-social .social-icons a:hover {
+  color: #ffffff; /* Mustard yellow hover */
+}
+
+.footer-social .social-icons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.footer-social .social-icons a {
+  font-size: 1.5em;
+  transition: color 0.3s;
+}
+
+.footer-bottom {
+  width: 100%;
+  border-top: 1px solid #444;
+  padding-top: 10px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .footer-container {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+}

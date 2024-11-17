@@ -1,0 +1,73 @@
+/* src/components/HampiUtsav.css */
+
+/* Body background - set to mustard yellow */
+body {
+  background-color: #ffffff; /* Mustard yellow */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main content container with light background */
+.hampi-container {
+  background-color: #ffd3c4; /* Light background for the content container */
+  color: #333;
+  padding: 40px;
+  max-width: 1000px;
+  margin: 40px auto; /* Center content with margin on top/bottom */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header section */
+.hampi-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.hampi-header h1 {
+  font-size: 2.5rem;
+  color: #af7a0a;
+}
+
+.hampi-header p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Section headings */
+.hampi-content h2 {
+  color: #af7a0a;
+  margin-top: 20px;
+}
+
+/* Spacing between sections */
+.about-hampi,
+.hampi-highlights,
+.hampi-history,
+.hampi-info {
+  margin-bottom: 25px;
+}
+
+/* Carousel styling */
+.carousel-root {
+  max-width: 800px;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.carousel .slide img {
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Carousel legend */
+.legend {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 4px;
+}

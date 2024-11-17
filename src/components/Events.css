@@ -1,0 +1,15 @@
+/* src/components/Events.css */
+
+.events-background {
+    background-image: url('../assets/evebg.jpg'); /* Replace with the path to your image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent repeating of the image */
+    height: 100vh; /* Full height of the viewport */
+    display: flex; /* Use flexbox to center content */
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    padding: 20px; /* Add some padding */
+    color: rgb(8, 1, 1); /* Change text color for readability, if needed */
+}
