@@ -58,7 +58,7 @@ const Carousel = () => {
   }, [slides.length]);
 
   return (
-    <div className="flex h-screen">
+    <div className="flex h-screen pt-16">
       {/* Left section with text */}
       {/* <div className="w-1/2 flex items-center h-[85vh] bg-gradient-to-br text-black ">
         <div className="text-left">
@@ -74,9 +74,8 @@ const Carousel = () => {
           {slides.map((slide, index) => (
             <div
               key={index}
-              className={`flex flex-col items-center justify-center w-full max-w-screen-lg mx-auto absolute transition-opacity duration-1000 ${
-                index === currentIndex ? "opacity-100" : "opacity-0"
-              }`}
+              className={`flex flex-col items-center justify-center w-full max-w-screen-lg mx-auto absolute transition-opacity duration-1000 ${index === currentIndex ? "opacity-100" : "opacity-0"
+                }`}
             >
               <div
                 className="w-full h-[40rem] bg-center bg-cover rounded-2xl shadow-md"

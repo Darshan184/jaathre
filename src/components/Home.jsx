@@ -74,7 +74,8 @@ const Home = () => {
       <div className="carousel-container h-screen">
         <Carousel />
       </div>
-
+      <br></br>
+      <br></br>
       <div className="flex flex-col">
         <h1 className="flex justify-center items-center font-bold mt-4">
           Explore Festivals & Events
@@ -157,16 +158,16 @@ const Home = () => {
             </div>
           </div>
 
-          <div class="flex items-center justify-center w-full mt-6 lg:mt-0 lg:w-1/2">
+          <div class="flex items-center justify-center w-full mt-0 lg:mt-0 lg:w-1/2">
             <img
-              class="w-full h-full lg:max-w-3xl"
+              class="hidden lg:block w-full h-full lg:max-w-3xl"
               src="https://merakiui.com/images/components/Catalogue-pana.svg"
               alt="Catalogue-pana.svg"
             />
           </div>
         </div>
       </div>
-    </div>
+    </div >
   );
 };
 
